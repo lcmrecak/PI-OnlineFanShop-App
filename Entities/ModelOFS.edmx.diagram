@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f85510098bcf43be81c7734045e19aa1" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelOnlineFanShop.FanKviz" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.FransizaProizvoda" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.Korisnik" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.Kosarica" Width="1.5" PointX="10.5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.ListaZelja" Width="1.5" PointX="10.5" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.Ponuda" Width="1.5" PointX="8.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.Primka" Width="1.5" PointX="6" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.Proizvod" Width="1.5" PointX="6" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.RecenzijaProizvoda" Width="1.5" PointX="10.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.Skladiste" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.sysdiagrams" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.UlogaKorisnika" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.VelicinaProizvoda" Width="1.5" PointX="3.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOnlineFanShop.VrstaProizvoda" Width="1.5" PointX="3.75" PointY="13" IsExpanded="true" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_FanKviz_FransizaProizvoda" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Proizvod_FransizaProizvoda" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Korisnik_UlogaKorisnika" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Kosarica_Korisnik" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_ListaZelja_Korisnik" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_RecenzijaProizvoda_Korisnik" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Kosarica_Ponuda" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_ListaZelja_Ponuda" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Ponuda_Proizvod" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_RecenzijaProizvoda_Ponuda" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Skladiste_Primka" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Proizvod_VelicinaProizvoda" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Proizvod_VrstaProizvoda" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOnlineFanShop.FK_Skladiste_Proizvod" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
